@@ -27,8 +27,7 @@ text "world" was added -OK
 7. Which commands will revert the change made below so that we go back to the previous checked-in state? (Select all that apply.)
 git revert test.rb
 
-
-git checkout -- test.rb
+git checkout .
 
 8. You have accidentally deleted test.rb. Which commands will restore the file to its previous committed state? (Select all that apply.)
 
@@ -36,13 +35,20 @@ git checkout -- test.rb  -OK
 
 9.You are told to push your master branch to https://git.repo.com/stuff.git . What is the command to add this remote url to your repository?
 
-git push master https://git.repo.com/stuff.git
+git remote add repo https://git.repo.com/stuff.git
 
 10. You are told to update your master branch for the Module 2 course examples located at the following URL: https://github.com/jhu-ep-coursera/fullstack-course1-module2 . Given the state of the repository below, what is the command to update your copy of the examples?
 
-git update origin master
+git pull master https://github.com/jhu-ep-coursera/fullstack-course1-module2 
 
 11. What abbreviation is used to describe the function of Git? (Select all that apply)
+
+SCM - Source Code Management
+
+HTTP - Hypertext Transfer Protocol
+
+SSH - Secure Socket Shell
+
 VCS - Version Control System
 
 
